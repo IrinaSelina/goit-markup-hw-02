@@ -1,0 +1,26 @@
+:root {
+  --primary-text-color: #757575;
+  --titel-text-color: #212121;
+  --accent-text-color: #2196f3;
+}
+.logo {
+  color: var(--accent-text-color);
+}
+.logo-accent {
+  color: var(--titel-text-color);
+}
+.button-secondary {
+  color: var(--primary-text-color);
+}
+.button-primery {
+  color: #FFFFFF;;
+  background-color: var(--accent-text-color);
+}
+p {
+  color: var(--primary-text-color);
+}
+.main-section{
+  color: #FFFFFF;
+  background-color: #2F303A;
+}
+.
