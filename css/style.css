@@ -2,25 +2,133 @@
   --primary-text-color: #757575;
   --titel-text-color: #212121;
   --accent-text-color: #2196f3;
+  --fon-cl: #2f303a;
+  --with: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+.site-nav {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 .logo {
+  font-family: "Raleway", sans-serif;
   color: var(--accent-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+main {
+  font-family: "Roboto", sans-serif;
 }
 .logo-accent {
   color: var(--titel-text-color);
 }
+
 .button-secondary {
   color: var(--primary-text-color);
 }
 .button-primery {
-  color: #FFFFFF;;
+  color: #ffffff;
   background-color: var(--accent-text-color);
 }
-p {
+.contacts {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.advantages {
+  color: var(--titel-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+.notes {
   color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
 }
-.main-section{
-  color: #FFFFFF;
-  background-color: #2F303A;
+
+.main-section {
+  color: #ffffff;
+  background-color: #2f303a;
+  text-align: center;
 }
-.
+.main {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+.position {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+}
+.projects {
+  color: var(--titel-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+.type {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+a:hover {
+  color: var(--accent-text-color);
+  font-weight: 700;
+}
+a:focus {
+  color: var(--accent-text-color);
+  font-weight: 700;
+}
+.button-primery:focus {
+  color: #ffffff;
+  font-weight: 700;
+}
+.button-primery:hover {
+  color: #ffffff;
+  font-weight: 700;
+}
+ul {
+  list-style: none;
+}
+.command {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.address {
+  font-family: "Roboto", sans-serif;
+  color: var(--with);
+  background-color: var(--fon-cl);
+}
