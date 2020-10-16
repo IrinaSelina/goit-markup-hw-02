@@ -127,8 +127,19 @@ ul {
   text-align: center;
 }
 
-.address {
+.footer {
   font-family: "Roboto", sans-serif;
   color: var(--with);
   background-color: var(--fon-cl);
+}
+.logo-ac-footer {
+  color: var(--with);
+}
+.address {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: var(--with);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
 }
