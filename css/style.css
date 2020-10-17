@@ -8,13 +8,20 @@
 a {
   text-decoration: none;
 }
+.primery-nav {
+  color: var(--accent-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
 .site-nav {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1em;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -22,7 +29,7 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.94em;
 }
 main {
   font-family: "Roboto", sans-serif;
@@ -43,21 +50,21 @@ main {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1em;
 }
 .advantages {
   color: var(--titel-text-color);
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1em;
 }
 .notes {
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.5em;
 }
 
 .main-section {
@@ -69,14 +76,14 @@ main {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 3.75em;
 }
 .position {
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.5em;
   font-style: normal;
 }
 .projects {
@@ -84,21 +91,21 @@ main {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2.25em;
 }
 .type {
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88em;
 }
 
 .name {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19em;
 }
 a:hover {
   color: var(--accent-text-color);
@@ -123,7 +130,7 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 2.63em;
   text-align: center;
 }
 
@@ -140,5 +147,13 @@ ul {
   color: var(--with);
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.5em;
+}
+.mail-tel {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5em;
 }
