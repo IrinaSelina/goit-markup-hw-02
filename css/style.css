@@ -13,14 +13,14 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 0.875em;
 }
 .site-nav {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 14px;
-  line-height: 1em;
+  line-height: 1.17em;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -28,7 +28,7 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1.94em;
+  line-height: 1.17em;
 }
 main {
   font-family: "Roboto", sans-serif;
@@ -36,53 +36,77 @@ main {
 .logo-accent {
   color: var(--titel-text-color);
 }
-
+.button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63em;
+}
 .button-secondary {
   color: var(--primary-text-color);
 }
-.button-primery {
+.button-primery-st {
   color: #ffffff;
   background-color: var(--accent-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88em;
+}
+.button-primery-pf {
+  color: #ffffff;
+  background-color: var(--accent-text-color);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.63em;
 }
 .contacts {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1em;
+  line-height: 1.17em;
+}
+.main {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36em;
 }
 .advantages {
   color: var(--titel-text-color);
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 1em;
+  line-height: 1.17em;
 }
 .notes {
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.5em;
+  line-height: 1.71em;
 }
-
+.about-us {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16em;
+  text-align: center;
+}
 .main-section {
   color: #ffffff;
   background-color: #2f303a;
   text-align: center;
 }
-.main {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 3.75em;
-}
+
 .position {
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.5em;
+  line-height: 1.19em;
   font-style: normal;
 }
 .projects {
@@ -90,7 +114,7 @@ main {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 2.25em;
+  line-height: 2em;
 }
 .type {
   color: var(--primary-text-color);
@@ -129,13 +153,21 @@ ul {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 2.63em;
+  line-height: 1.17em;
   text-align: center;
 }
 
 .footer {
   font-family: "Roboto", sans-serif;
   background-color: var(--fon-cl);
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  color: var(--accent-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19em;
 }
 .logo-ac-footer {
   color: var(--with);
@@ -146,7 +178,7 @@ ul {
   color: var(--with);
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.5em;
+  line-height: 1.71em;
 }
 .mail-tel {
   font-family: "Roboto", sans-serif;
@@ -154,5 +186,5 @@ ul {
   color: rgba(255, 255, 255, 0.6);
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.5em;
+  line-height: 1.71em;
 }
