@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:: befor,
+*::after {
+  box-sizing: inherit;
+}
 :root {
   --primary-text-color: #757575;
   --titel-text-color: #212121;
@@ -7,6 +15,15 @@
 }
 a {
   text-decoration: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--accent-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.17em;
+  width: 145px;
 }
 .primery-nav {
   color: var(--accent-text-color);
@@ -22,14 +39,7 @@ a {
   font-size: 14px;
   line-height: 1.17em;
 }
-.logo {
-  font-family: "Raleway", sans-serif;
-  color: var(--accent-text-color);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.17em;
-}
+
 main {
   font-family: "Roboto", sans-serif;
 }
